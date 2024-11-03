@@ -154,3 +154,18 @@ input:focus {
   color: #9ca3af;
   margin-top: 8px;
 }
+.header {
+  background: white;
+  padding: 16px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 16px;
+}
+.total {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2563eb;
+}

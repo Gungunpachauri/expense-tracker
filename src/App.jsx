@@ -1,4 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
+import Header from "./components/Header";
+
+
 
 const STORAGE_KEY = "expense_tracker_expenses_v1";
 
