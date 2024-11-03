@@ -1,6 +1,8 @@
 import React, { useEffect, useMemo, useState } from "react";
+//components
 import Header from "./components/Header";
 
+<Header total={total} />
 
 
 const STORAGE_KEY = "expense_tracker_expenses_v1";
@@ -13,6 +15,7 @@ function formatDate(dateStr) {
     year: "numeric",
     month: "short",
     day: "numeric",
+
   });
 }
 
